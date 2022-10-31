@@ -1,0 +1,10 @@
+:help command
+
+cntr o and cntr i to navigate between sections
+edit file when in help system cntr w cntr w
+
+when in Line Mode you can press ctr d for auto completion or you can use the tab key
+in the case of using tab you can navigate between options using tab and shift tab
+
+:set nowildmenu to remove the menu for tab completion
+for help you can use ^ as a shortcut for cntr
