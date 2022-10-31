@@ -1,0 +1,31 @@
+vim modes:
+    Normal / Command Mode
+    Insert Mode
+    Line Mode
+    There are other modes, too...
+
+existvim: :q! or :qa
+write and quit: wq
+
+navigation:
+"cntr f" and "cntr b"
+move 1 word "w, W"
+W uses whitespaces and ignores punctuations
+same for b and B for backwords
+
+"z enter" to move the page to current cursor location
+
+beggining of file: "gg" or "1gg" or :1
+of file: "gg" or "1gg" or :1
+
+beggining of file: "G" or ":$"
+A to insert at the end of the line
+"cntr g" to know number of lines in a file "cntr g G"
+shift {}
+
+":set ruler" ":set noruler" for line and word number "set ruler!"
+
+deleting:
+x X
+dw
+operation[motion]
