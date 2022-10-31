@@ -28,4 +28,13 @@ shift {}
 deleting:
 x X
 dw
-operation[motion]
+[count]operation[count][motion]
+dd D 2d3d
+2w=Repeat word motion 3 times
+d3w=Delete 3w motion
+2d3w=Delete the 3w motion 2 times
+. to repeat previous command
+! does 3 things
+    force an action
+    to toggle a vim setting
+    to execute external command
