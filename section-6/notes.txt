@@ -1,0 +1,13 @@
+I will go to insert mode at the beggining of the line
+80 i * then going to insert mode will repeat * 80 times
+********************************************************************************
+R for replace mode and r for replacing 1 character
+cw to replace a word cc C
+so c is similar to d but places us into insert mode
+~ to change lowercase to uppercase or vise versa
+gUw makes a word uppercase
+gUU makes an entire line uppercase
+guw makes a word lowercase
+guu makes an entire line uppercase
+gJ will append 2 lines
+J will append 2 lines by adding space or 2(for period)
