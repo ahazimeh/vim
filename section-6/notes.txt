@@ -24,3 +24,11 @@ ta and Ta for the cursor before the letter
 ? search in reverse
 * will also do the search, the * matches an entire word
 # is the reverse for *
+
+
+:[range]s/old/new/[flag]
+:1,5s/old/new/g
+. is the current line and $ is the last line
+% means all lines
+you can also use pattern: ://,//s/old/new/g and in this case only lines that falls in to these search patterns will change
+for vim use: set nu for numbers to show
