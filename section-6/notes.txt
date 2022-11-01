@@ -11,3 +11,16 @@ guw makes a word lowercase
 guu makes an entire line uppercase
 gJ will append 2 lines
 J will append 2 lines by adding space or 2(for period)
+
+searching:
+fa and Fa will look for letter a to the right or left respectively for the line
+; will repeat this command and , for the previous search
+ta and Ta for the cursor before the letter
+/word enter for searching, pressing n will go to the next search and N for reverse direction
+:set is? to check if incsearch is turned on
+:set is to set it on
+:set hls?
+:set hls and :nohls
+? search in reverse
+* will also do the search, the * matches an entire word
+# is the reverse for *
