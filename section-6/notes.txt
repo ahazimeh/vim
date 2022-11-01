@@ -8,7 +8,7 @@ so c is similar to d but places us into insert mode
 gUw makes a word uppercase
 gUU makes an entire line uppercase
 guw makes a word lowercase
-guu makes an entire line uppercase
+guu makes an entire line lowercase
 gJ will append 2 lines
 J will append 2 lines by adding space or 2(for period)
 
