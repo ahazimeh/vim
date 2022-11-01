@@ -1,0 +1,12 @@
+un-named register is the default register: ""
+numbered register: "0 "1
+named register
+""holds text from d, c, s, x, and y operations
+"0 holds last text yanked (y)
+"1 holds last text deleted (d) or changed (c)
+Numbered registers shift with each d or c
+:reg
+:reg 1z to look for registers 1 and z
+"_ is the black hole register
+"a for named register
+"R with append to r register
