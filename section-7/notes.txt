@@ -1,0 +1,20 @@
+daw: delete a word
+diw: delete inner word
+{operator}{a}{object}
+{operator}{i}{object}
+das and dis for sentences
+dap and dip for paragraphs
+di'[' to delete everything inside a bracket
+you can use yi'[' for copy
+for tag use: dit or cit
+
+{
+    dkhjfsd
+    jsdfo
+
+    sdofjsd
+}
+to remove data between brackets you can use ciB or caB
+or ci{
+
+"ayi< to copy text yank_me to a register <yank_me>
