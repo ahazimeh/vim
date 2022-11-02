@@ -1,0 +1,14 @@
+:set history?
+:set history& to reset it to the default value
+:set contains options that defers from their default value
+" show incomple commands.
+set showcmd
+set scrolloff=5 // for z enter to position 5 lines above
+set ignorecase // to ignore case when searching
+set smartcase // ignore ignorecase if the search contains capital letter
+set backup // it makes a backup for the file you are editing before saving it
+set bex=SOMETHING // backup extension
+set lbr // not wrap on midword at the end of line
+set ai // auto indent
+set si // smart indent, it auto indent when needed, use ai if you are going to use this setting
+set bg=dark or light to tell vim what background you are using so things like numbers color wil change
