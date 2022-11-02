@@ -1,0 +1,14 @@
+v, V, cntr V
+gv to reselect previous selection
+> and < to shift text
+:set shiftwidth? to get the value of the shift(<>)
+:set tabstop? for nb of spaces for tab
+:set expandtab?
+:set list to spot tabs and $
+:set shiftwidth=4
+when in visual mode, :center to center text
+:center 40 to center within 40 columns
+ce is the short version for center
+:left to left line, le is the short version
+:le5 will go 5 characters with the text
+similar to right command, or ri
