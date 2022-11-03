@@ -12,3 +12,25 @@ set lbr // not wrap on midword at the end of line
 set ai // auto indent
 set si // smart indent, it auto indent when needed, use ai if you are going to use this setting
 set bg=dark or light to tell vim what background you are using so things like numbers color wil change
+:colorscheme
+
+to install a color scheme create a .vim directory in your home directory and a sub-directory their called colors
+
+"map KEY KEYSTROKES
+map <F2> iJohn Smith <CR>123 Main Street<CR>Anytown, NY<CR><ESC>
+source .vimrc to read a file of commands
+
+map <leader>w :w!<CR>
+now by typing \w the file will be saved
+you can change the leader key:
+let mapleader="," but it should be added above any leader keys or it vim will use \ which is the default key
+
+
+:h mapping // for more info
+you can use mkvimrc
+you can use mkvimrc testvimrc
+reload vim file :e
+vmap is mapping for visual mode
+nmap is mapping for normal mode
+vnoremap and nnoremap disables recursive mapping for visual and normal mode
+ vim: set ft=vim : // ft is file type for more info :h modeline
