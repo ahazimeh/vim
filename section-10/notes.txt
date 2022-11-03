@@ -31,3 +31,35 @@ to open another file without switching to it immediately use :badd (:badd modes.
 
 :E (for explore) you get a file explorer window
 use :bd to delete the current buffer if you wanted to exit
+
+you can use :ls or :files or :buffer commands
+
+to split windows horizontally :sp
+you can also use cntr w s
+vsplit to view buffers side by side
+you can also use cntr w v
+
+you can use cntr w q to close the window
+
+to close all windows except the 1 you are in use :on or :only command
+or cntr w o
+
+to navigate between windows either use cntr w cntr w, you can also use cntr w j to go to the window below for example
+cntr w + to increase height of a window
+cntr w > to increase width
+similarly for decreasing using - and <
+to maximize height of a window use cntr w _
+and cntr w |
+cntr w = to make all windows of equal size
+
+to rotate windows location cntr w r or cntr w R to rotate in the opposite direction
+cntr w J will move the current window to the very bottom to take the full width of the screen
+similarly for HIKL
+:ba or :ball to open all buffers in your buffer list
+:windo is similar to bufdo but only for open windows
+
+:h ^ww to view help on cntr w w
+
+beaware that there might be a couple gotchas when using the cntr cntr version of some commands
+if cntr w cntr s didn't work then use cntr q to resume screen updating
+likewise cntr w cntr q may not work because some terminal intercept that control
