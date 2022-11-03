@@ -1,0 +1,25 @@
+for gui vim
+windows: gVim
+mac: MacVim
+linux: in the command line gvim
+
+you can install the official versions of vim in vim.org
+you can look at what each menu item does by checking out the menu.vim file
++ and * registers for gui vim mode
++ register is the clipboard register
+on mac and windows * and + registers are the same
+
+for linux system if you are using x windows
++ register contains text that uses the treditional clipboard
+and * register is used for text highlighted, you can highlight something with your mouse and use the middle click
+:set clipboard=unnamed
+so vim will use the clipboard for operations that would typically go to the unnamed operations
+for linux use :set clipboard=unnamedplus
+
+for gui global settings you use .gvimrc file or _gvimrc for windows users
+the .gvimrc file will be read after the .vimrc file
+
+for font:
+:set gfn=*
+or you can use the menu selector
+to view font selection :set gfn?
