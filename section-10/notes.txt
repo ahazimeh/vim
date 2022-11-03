@@ -63,3 +63,5 @@ similarly for HIKL
 beaware that there might be a couple gotchas when using the cntr cntr version of some commands
 if cntr w cntr s didn't work then use cntr q to resume screen updating
 likewise cntr w cntr q may not work because some terminal intercept that control
+
+for more :h windows
