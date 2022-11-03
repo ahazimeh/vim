@@ -1,0 +1,42 @@
+to use plugins prior to version 8 you need a 3rd party plugin manager such as:
+    vim-plug, Vundle, NeoBundle, Pathogen
+
+recommended for vim plugins use Google.com or VimAwsome.com
+
+:set packpath will show you list of directories where vim will look for packages and plugins
+
+where to store plugins
+in any path for directories /pack/packagesName
+
+{packpath}/pack/{package-name}/start/{plugin-name}
+{packpath}/pack/{package-name}/opt/{plugin-name}
+plugins in the start directory will be loaded automatically when vim starts
+
+to load a plugin in the opt directory use :packadd {plugin-directory-name}
+
+file explorer plugin: The NerdTree
+to start it :NERDTree
+:NERDTree /var
+for this plugin press o to open a directory and O to open directories recursively
+X to close all these directories
+
+fuzzy file finder: ctrlp
+cntr P to start it
+    in this plugin to open a file in a new window use cntr x for horizontal window or cntr v for vertical window
+ 
+for plugins in the opt directory 
+tabular
+:Tab to start it
+to load it :packadd or :pa with directory name of the plugin
+:Tab /| to make tabs where | exists
+:Tab /|/r3
+
+easymotion:
+to use easymotion type the leader key twice followed by a motion key, by default the leader key is \
+\\j to go to a line below current position for example
+\\w to jump to the beginning of a word
+\\s to do a single character search
+
+fugitive:
+Git blame
+the plugin will run the git blame command and display the output in a new window
