@@ -1,0 +1,33 @@
+terminal multiplexer like Screen or Tmax
+:beffers to display the list of buffers
+you can use :ls as well
+:buffer 2 (or :b2)
+:b buf-dad.txt
+you can move to the next buffer using :bnext or bn
+similar for previous using :bprevious or :bp
+:bf to go to the first buffer
+similar for :bl to go to the last buffer
+to go to the previously opened buffer cntr ^
+%a means the buffer is loaded in the window, % means it is the buffer in the current window and the a means it is an active buffer which means it is loaded and visible
+# represents the alternate buffer which you were previously editing
+so another way to switch to the alternate buffer is b#
++ means changes happened but not saved yet
+h means a hidden buffer
+a buffer is in 1 of 3 states:
+    active: loaded in memory and displayed in winodw
+    hidden: loaded in memory and not displayed in a window
+    inactive: not loaded in memory and not being displayed
+buffers that don't have any indicators are actually not loaded into memory    
+
+:set hidden will allow you to edit multiple files at once without saving or forcing the switching with !
+    buffer will stay in memory once they get loaded
+to abandon all changes in all buffers use qall!
+to save them all use :wall
+to open another file without switching to it immediately use :badd (:badd modes.txt)
+:bd to delete a buffer (:bd 3)
+:%bd to delete all buffers
+:bufdo set nu (bufdo will apply commands to all buffers)
+:bufdo %s/#/@/g | w
+
+:E (for explore) you get a file explorer window
+use :bd to delete the current buffer if you wanted to exit
